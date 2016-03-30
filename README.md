@@ -3,8 +3,10 @@ This repository is a fork of [Carte](https://github.com/Wiredcraft/carte) which 
 
 ## Install
 
+1. Install Ruby
+1. Install RubyGems -> Use the install approach at the bottom of this page: https://rubygems.org/pages/download
+1. Install Jekyll -> ``gem install jekyll``
 1. Clone this repository to your local machine
-1. Install Jekyll
 1. Go to the root of the repository and run ```jekyll serve --watch```
 1. Go to http://localhost:4000
 
