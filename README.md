@@ -1,20 +1,18 @@
+## Repository information
+This repository is a fork of [Carte](https://github.com/Wiredcraft/carte) which is a simple Jekyll based documentation website for APIs which was designed for people to build their own documentation upon.
+
 ## Install
 
-It' Jekyll god dammit:
-
-1. Clone this repository on your local,
-1. [Install Jekyll](https://github.com/mojombo/jekyll/wiki/install),
-1. Go at the root of the repository and run ```jekyll serve --watch```,
-1. Go to http://localhost:4000,
-1. [Great success! High five!](http://www.youtube.com/watch?v=wWWyJwHQ-4E)
+1. Clone this repository to your local machine
+1. Install Jekyll
+1. Go to the root of the repository and run ```jekyll serve --watch```
+1. Go to http://localhost:4000
 
 ## How to...
 
-### Adding a new API call
+### Add a new API call
 
 You can add a new API call by simply adding a new post in the `_posts` folder. Jekyll by default forces you to specify a date in the file path: it makes us sad pandas too, but you'll have to stick to this format. You can use dates to control the order in which API calls are displayed in the interface.
-
-
 
 Each API call can define a few values in its YAML header:
 
@@ -38,7 +36,7 @@ layout: nil
 
 We then describe the request and response (or whatever else you wish to talk about) in the body of our post. Check the placeholders present in the `_posts` folder to get an idea of what it can look like.
 
-### Grouping calls
+### Group calls
 
 Adding a category to your YAML header will allows you to group methods in the navigation. It is particularly helpful as you start having a lot of methods and need to organize them. For example:
 
@@ -53,9 +51,12 @@ layout: nil
 ---
 ```
 
-### Ordering calls
+### Order calls
 
-As mentioned earlier, jekyll orders the posts by date. Therefore I suggest to just use the dates' year field as ordering numbers. For instance; posts that should always be shown at the top of the list, set the file name to 9999-01-01-file-name-here.md. For regular posts, start from 0001-01-01-file-name-here.md and increment to 0002-01-01-file-name-here.md etc.
+As mentioned earlier, Jekyll orders the call posts by date. Therefore I suggest to just use the dates' year field as ordering numbers.
+
+For special posts that should always be shown at the top of the list, you could set the file name to ``9999-01-01-file-name-here.md``.    
+Regular call posts could ``0001-01-01-file-name-here.md`` and be incremented from there to ``0002-01-01-file-name-here.md`` etc.
 
 ### Edit the design
 
